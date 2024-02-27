@@ -1,0 +1,250 @@
+body{
+    background-color: #CFECEA;
+}
+
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+    
+    
+}
+.welcome{
+ float: left; 
+height: 400px;
+
+}
+.welleft{
+    float: left;
+
+height: 100%;
+}
+.welright{
+    float: right;
+    background-color: yellow;
+    height: 100%;
+  
+}
+.welright img{
+    width: 100%;
+    object-fit: cover;
+}
+.welleft .btn{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+   
+}
+.welleft .btn:hover{
+    background-color: yellow;
+    color: red;
+}
+.welleft h1{
+    font-weight: bold;
+}
+
+.btn-group button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+.card-body h2{
+    font-size: 20px;
+}
+
+
+
+
+
+.whywe{
+    background-color: rgba(155, 212, 255, 0.453);
+    min-height: 650px;
+    height: auto;
+}
+.whywe img{
+    width: 100%;
+    
+}
+
+.whywe h2{
+    font-size: 2rem;
+    
+}
+
+.whywe span{
+    color: rgb(192, 13, 192);
+    border-bottom: solid 5px;
+    padding-bottom: 10px 0;
+}
+
+.feature{
+    min-height: 250px;
+    height: auto;
+
+}
+
+.fsec i{
+text-align: center;
+font-size: 20px;
+margin-left: 15%;
+margin-bottom: 8%;
+
+}
+.feature .row p{
+    text-align: center;
+}
+
+.ffirst{
+    text-align: center;
+}
+
+.footer{
+    background-color: black !important;
+    color: white;
+}
+.footer ul li a{
+color: white !important;
+}
+
+.footicon i{
+    margin: 0 0 0 20px;
+    font-size: 25px;
+
+}
+.copyrightmain{
+    background-color: rgb(70, 65, 65);
+    color: white;
+
+    
+}
+
+
+
+
+
+
+@media (max-width:991px) {
+.welright{
+    width: 100%;
+    
+}
+.welleft{
+    width: 100%;
+}
+.welcome{
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+.courseslist{
+    width: 100%;
+}
+.courses-img{
+    width: 100%;
+}
+.ffirst{
+    width: 50%;
+    text-align: center;
+}
+
+.fsec{
+    width: 50%;
+}
+
+.fthi{
+    width: 100%;
+    margin-top: 20px;
+}
+.feature{
+    height: auto;
+    min-height: 300px;
+}
+
+
+.foot-one{
+    width: 25%;
+}
+.foot-two{
+    width: 25%;
+}
+.foot-three{
+    width: 25%;
+}
+.foot-four{
+    width: 25%;
+}
+.foot-five{
+    width: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+footer a{
+    font-size: 10px;
+}
+
+
+
+
+
+
+}
+
+
+@media (max-width:768px) {
+
+
+
+    .footer-wraper{
+   max-width: 100% !important;
+   margin: 0 0;
+    }
+
+
+    .footicon{
+        width: 100%;
+        display: flex !important;
+        justify-content: space-around !important;
+        margin: 10px 0 0 0;
+
+        
+    }
+
+
+
+}
+
+@media (max-width:768px) {
+    
+    .feature{
+    height: auto;
+    min-height: 390px;
+}
+
+
+.foot-one{
+    width: 50%;
+}
+.foot-two{
+    width: 50%;
+}
+.foot-three{
+    width: 50%;
+}
+.foot-four{
+    width: 50%;
+}
+.foot-five{
+    width: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+footer a{
+    font-size: 10px;
+}
+
+
+
+
+}
