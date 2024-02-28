@@ -1,54 +1,61 @@
-body{
+body {
     background-color: #CFECEA;
 }
 
-.carousel-item img{
+.carousel-item img {
     height: 400px;
     object-fit: cover;
-    
-    
-}
-.welcome{
- float: left; 
-height: 400px;
+
 
 }
-.welleft{
+
+.welcome {
+    float: left;
+    height: 400px;
+
+}
+
+.welleft {
     float: left;
 
-height: 100%;
+    height: 100%;
 }
-.welright{
+
+.welright {
     float: right;
     background-color: yellow;
     height: 100%;
-  
+
 }
-.welright img{
+
+.welright img {
     width: 100%;
     object-fit: cover;
 }
-.welleft .btn{
+
+.welleft .btn {
     background-color: orange;
     color: white;
     font-weight: bold;
-   
+
 }
-.welleft .btn:hover{
+
+.welleft .btn:hover {
     background-color: yellow;
     color: red;
 }
-.welleft h1{
+
+.welleft h1 {
     font-weight: bold;
 }
 
-.btn-group button{
+.btn-group button {
     background-color: orange;
     color: white;
     font-weight: bold;
 }
 
-.card-body h2{
+.card-body h2 {
     font-size: 20px;
 }
 
@@ -56,66 +63,70 @@ height: 100%;
 
 
 
-.whywe{
+.whywe {
     background-color: rgba(155, 212, 255, 0.453);
     min-height: 650px;
     height: auto;
 }
-.whywe img{
+
+.whywe img {
     width: 100%;
-    
+
 }
 
-.whywe h2{
+.whywe h2 {
     font-size: 2rem;
-    
+
 }
 
-.whywe span{
+.whywe span {
     color: rgb(192, 13, 192);
     border-bottom: solid 5px;
     padding-bottom: 10px 0;
 }
 
-.feature{
+.feature {
     min-height: 250px;
     height: auto;
 
 }
 
-.fsec i{
-text-align: center;
-font-size: 20px;
-margin-left: 15%;
-margin-bottom: 8%;
+.fsec i {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-bottom: 8%;
 
 }
-.feature .row p{
+
+.feature .row p {
     text-align: center;
 }
 
-.ffirst{
+.ffirst {
     text-align: center;
 }
 
-.footer{
+.footer {
     background-color: black !important;
     color: white;
 }
-.footer ul li a{
-color: white !important;
+
+.footer ul li a {
+    color: white !important;
 }
 
-.footicon i{
+.footicon i {
     margin: 0 0 0 20px;
     font-size: 25px;
 
 }
-.copyrightmain{
+
+.copyrightmain {
     background-color: rgb(70, 65, 65);
     color: white;
 
-    
+
 }
 
 
@@ -124,64 +135,73 @@ color: white !important;
 
 
 @media (max-width:991px) {
-.welright{
-    width: 100%;
-    
-}
-.welleft{
-    width: 100%;
-}
-.welcome{
-    height: auto;
-    margin: 0 0 20px 0;
-}
+    .welright {
+        width: 100%;
 
-.courseslist{
-    width: 100%;
-}
-.courses-img{
-    width: 100%;
-}
-.ffirst{
-    width: 50%;
-    text-align: center;
-}
+    }
 
-.fsec{
-    width: 50%;
-}
+    .welleft {
+        width: 100%;
+    }
 
-.fthi{
-    width: 100%;
-    margin-top: 20px;
-}
-.feature{
-    height: auto;
-    min-height: 300px;
-}
+    .welcome {
+        height: auto;
+        margin: 0 0 20px 0;
+    }
+
+    .courseslist {
+        width: 100%;
+    }
+
+    .courses-img {
+        width: 100%;
+    }
+
+    .ffirst {
+        width: 50%;
+        text-align: center;
+    }
+
+    .fsec {
+        width: 50%;
+    }
+
+    .fthi {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .feature {
+        height: auto;
+        min-height: 300px;
+    }
 
 
-.foot-one{
-    width: 25%;
-}
-.foot-two{
-    width: 25%;
-}
-.foot-three{
-    width: 25%;
-}
-.foot-four{
-    width: 25%;
-}
-.foot-five{
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0;
-}
+    .foot-one {
+        width: 25%;
+    }
 
-footer a{
-    font-size: 10px;
-}
+    .foot-two {
+        width: 25%;
+    }
+
+    .foot-three {
+        width: 25%;
+    }
+
+    .foot-four {
+        width: 25%;
+    }
+
+    .foot-five {
+        width: 100%;
+        padding: 0 0;
+        margin: 0 0;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
 
 
 
@@ -195,19 +215,19 @@ footer a{
 
 
 
-    .footer-wraper{
-   max-width: 100% !important;
-   margin: 0 0;
+    .footer-wraper {
+        max-width: 100% !important;
+        margin: 0 0;
     }
 
 
-    .footicon{
+    .footicon {
         width: 100%;
         display: flex !important;
         justify-content: space-around !important;
         margin: 10px 0 0 0;
 
-        
+
     }
 
 
@@ -215,34 +235,38 @@ footer a{
 }
 
 @media (max-width:768px) {
-    
-    .feature{
-    height: auto;
-    min-height: 390px;
-}
+
+    .feature {
+        height: auto;
+        min-height: 390px;
+    }
 
 
-.foot-one{
-    width: 50%;
-}
-.foot-two{
-    width: 50%;
-}
-.foot-three{
-    width: 50%;
-}
-.foot-four{
-    width: 50%;
-}
-.foot-five{
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0;
-}
+    .foot-one {
+        width: 50%;
+    }
 
-footer a{
-    font-size: 10px;
-}
+    .foot-two {
+        width: 50%;
+    }
+
+    .foot-three {
+        width: 50%;
+    }
+
+    .foot-four {
+        width: 50%;
+    }
+
+    .foot-five {
+        width: 100%;
+        padding: 0 0;
+        margin: 0 0;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
 
 
 
@@ -263,33 +287,34 @@ footer a{
 
 
 .about-banner {
-width: 100%;
-height: 50vh;
-background-image: url(images/codioful-formerly-gradienta-QWutu2BRpOs-unsplash\ \(1\).jpg);
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/codioful-formerly-gradienta-QWutu2BRpOs-unsplash\ \(1\).jpg);
 }
 
 
 .about-welcome .left {
     text-align: right !important;
-    padding:   5% 2% 0 0;
+    padding: 5% 2% 0 0;
     line-height: 30px;
 }
 
-.about-welcome .right img{
-width: 100%;
+.about-welcome .right img {
+    width: 100%;
 }
-.about-welcome{
+
+.about-welcome {
     margin: 5% 0 0 0;
 }
 
 .about-welcome .left2 {
     text-align: left !important;
-    padding:   5% 2% 0 0;
+    padding: 5% 2% 0 0;
     line-height: 30px;
 }
 
-.about-welcome .right2 img{
-width: 100%;
+.about-welcome .right2 img {
+    width: 100%;
 }
 
 /******************************************************************
@@ -299,24 +324,23 @@ width: 100%;
 
 @media (max-width:991px) {
 
-.about-welcome-wraper .left
-{
-width: 100% !important;
-margin: 0 0 20px 0;
-}
-.about-welcome-wraper .right
-{
-width: 100% !important;
-}
-.about-welcome-wraper .left2
-{
-width: 100% !important;
-margin: 0 0 20px 0;
-}
-.about-welcome-wraper .right2
-{
-width: 100% !important;
-}
+    .about-welcome-wraper .left {
+        width: 100% !important;
+        margin: 0 0 20px 0;
+    }
+
+    .about-welcome-wraper .right {
+        width: 100% !important;
+    }
+
+    .about-welcome-wraper .left2 {
+        width: 100% !important;
+        margin: 0 0 20px 0;
+    }
+
+    .about-welcome-wraper .right2 {
+        width: 100% !important;
+    }
 
 
 
@@ -325,9 +349,557 @@ width: 100% !important;
 
 @media (max-width:768px) {
 
-.trailer-group .tg2{
+    .trailer-group .tg2 {
+
+        width: 50%;
+        margin: 20px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/******************************************************************
+* Here Our service Part start 
+*******************************************************************/
+
+
+.service-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/codioful-formerly-gradienta-QWutu2BRpOs-unsplash\ \(1\).jpg);
+}
+
+.ser-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+
+}
+
+.ser-ban-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+
+}
+
+.ser-ban-left h1 {
+    color: white;
+    font-size: 4vw;
+    font-weight: bolder;
+
+
+    letter-spacing: 5px;
+}
+
+.ser-ban-left p {
+    color: white;
+    font-size: 2vw;
+    letter-spacing: 2px;
+}
+
+.ser-ban-right {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.ser-ban-right .round {
+    width: 20vw;
+    height: 40vh;
+    border: solid;
+    border-radius: 100%;
+    border-style: dotted;
+
+}
+
+.ser-ban-right p {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background-color: rgb(255, 51, 0);
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px;
+}
+
+.ser-card i {
+    font-size: 3em;
+    background-color: rgba(202, 202, 202, 0.568);
+    text-align: center;
+    margin: 10px 0 0 0;
+    border-radius: 50%;
+    width: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ser-card {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.p1 {
+    top: 0;
+
+}
+
+.p2 {
+    left: 21%;
+
+}
+
+.p3 {
+    right: 21%;
+
+}
+
+.p4 {
+    bottom: 0;
+
+}
+
+.p1 {
+    top: 0;
+
+}
+
+
+@media (max-width:768px) {
+
+    .service-banner {
+        height: 95vh;
+
+    }
+
+    .ser-row {
+
+        flex-direction: column;
+        height: 90vh;
+        align-items: center;
+    }
+
+
+    .ser-ban-right p {
+        width: 10vw;
+        height: 10vw;
+        font-size: 1.4vw;
+    }
+    .ser-ban-left p {
+       font-size: 4vw;
+    }
+    .ser-ban-left h1 {
+        font-size: 8vw; 
+    }
+    .p2 {
+        left: 35%;
+    
+    }
+    
+    .p3 {
+        right: 35%;
+    
+    }
+    
+
+}
+
+
+
+@media (max-width:600px) {
+
+    .p1 {
+        top: 0;
+    
+    }
+    
+    .p2 {
+        left: 30%;
+    
+    }
+    
+    .p3 {
+        right: 30%;
+    
+    }
+    
+    .p4 {
+        bottom: 0;
+    
+    }
+    
+    .p1 {
+        top: 0;
+    
+    }
+    
+    .ser-ban-right p {
+        width: 15vw;
+        height: 15vw;
+        font-size: 2vw
+    }
+
+    .ser-ban-right .round {
+        width: 50vw;
+        color: orange;
+        height: 40vh;
+        
+    
+    }
+
+}
+
+
+
+
+/******************************************************************
+* Here Our Counting Start 
+*******************************************************************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+header {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+.counters {
+
+    color: rgb(0, 0, 0);
+    padding: 40px 20px;
+
+}
+
+.counters .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.counters i {
+    color: lightskyblue;
+    margin-bottom: 5px;
+}
+
+.counters .counter {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+    .counters .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .counters .container>div:nth-of-type(1),
+    .counters .container>div:nth-of-type(2) {
+        border-bottom: 1px solid lightskyblue;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+/******************************************************************
+* Here Our Call US part css start 
+*******************************************************************/
+
+.call-us {
+
+    background-image: linear-gradient(to right, #ff4400, #FE9B3D);
+
+}
+
+.call-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+}
+
+.call-left {
+   
+    color: white;
+
+}
+.call-right i{
+    font-size: 30px;
+}
+.call-us-row{
+    display: flex;
+    align-items: center;
+
+}
+
+@media (max-width:870px) {
+    .call-us-row{
+        flex-direction: column;
+        flex-wrap: wrap;
+   
+        
+        
+    }
+
+    .call-right{
+        width: 100%;
+    }
+    .call-left{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+@media (max-width:600px) {
+.call-right{
+    flex-direction: column;
+}
+}
+
+
+
+
+
+
+
+/******************************************************************
+* Here Our Contact Us Css start 
+*******************************************************************/
+
+
+.contact-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/codioful-formerly-gradienta-QWutu2BRpOs-unsplash\ \(1\).jpg);
+}
+
+.wel-con-left{
+    text-align: center;
+}
+.wel-con-right{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.wel-con-right p{
+    text-align: justify;
+}
+.wel-con-right i{
+   margin: 0 10px 0 0;
+   color: orange;
+   font-size: 20px;
+}
+
+
+
+/******************************************************************
+* Here OUr Form Part Start 
+*******************************************************************/
+
+
+.con-form{
+    background-color: orange;
+    height: 30vh !important;
+}
+.con-form h3{
+   text-align: center;
+   margin-top: 10px;
+   font-size: 30px;
+   font-weight: bolder;
+   color: white;
+}
+form{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 20vh;
+
+}
+
+.form-first{
+
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content:  space-evenly;
+
+  
+}
+.form-two{
+    
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+form input, select{
+    height: 8vh;
+    padding: 15px;
+    border: none;
+}
+.submit{
+    color: white;
+    font-weight:bolder;
+}
+
+.submit
+{
+    background-color: red;
+}
+
+.submit:hover{
+    background-color: rgb(247, 100, 100);
+}
+
+
+
+@media (max-width:768px) {
+  .con-row{
+    display: flex;
+    flex-direction: column;
+  }
+  .wel-con-left{
+    width: 100%;
+  }
+  .wel-con-right{
+    width: 100%;
+  }
+
+  form{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    }
+    form input, select{
+        height: 5vh;
+        margin-bottom: 5px;
+        padding: 0 0 0 15px;
+      
+    }
+
+.form-first{
+    width: 100%;
+
+}
+.form-two{
+    width: 100%;
+}
+
+}
+
+
+/******************************************************************
+* Here Our Blog part start 
+*******************************************************************/
+
+.blog-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/codioful-formerly-gradienta-QWutu2BRpOs-unsplash\ \(1\).jpg);
+}
+
+.blog-titel h1{
+    text-align: center;
+    
+}
+.blog-titel{
+    background-color: skyblue;
+}
+.blog-list a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
  
-width: 50%;
-margin: 20px 0 ;
 }
+.blog-list{
+    background-color: red;
 }
+.list-first{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.list-two{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.blog-list a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+/******************************************************************
+* Here Our Article Part Started 
+*******************************************************************/
+
