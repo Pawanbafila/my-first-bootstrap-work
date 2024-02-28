@@ -248,3 +248,86 @@ footer a{
 
 
 }
+
+
+
+
+
+
+
+
+
+/******************************************************************
+* Here our About Us Part Start 
+*******************************************************************/
+
+
+.about-banner {
+width: 100%;
+height: 50vh;
+background-image: url(images/codioful-formerly-gradienta-QWutu2BRpOs-unsplash\ \(1\).jpg);
+}
+
+
+.about-welcome .left {
+    text-align: right !important;
+    padding:   5% 2% 0 0;
+    line-height: 30px;
+}
+
+.about-welcome .right img{
+width: 100%;
+}
+.about-welcome{
+    margin: 5% 0 0 0;
+}
+
+.about-welcome .left2 {
+    text-align: left !important;
+    padding:   5% 2% 0 0;
+    line-height: 30px;
+}
+
+.about-welcome .right2 img{
+width: 100%;
+}
+
+/******************************************************************
+* Here our about media query start
+*******************************************************************/
+
+
+@media (max-width:991px) {
+
+.about-welcome-wraper .left
+{
+width: 100% !important;
+margin: 0 0 20px 0;
+}
+.about-welcome-wraper .right
+{
+width: 100% !important;
+}
+.about-welcome-wraper .left2
+{
+width: 100% !important;
+margin: 0 0 20px 0;
+}
+.about-welcome-wraper .right2
+{
+width: 100% !important;
+}
+
+
+
+
+}
+
+@media (max-width:768px) {
+
+.trailer-group .tg2{
+ 
+width: 50%;
+margin: 20px 0 ;
+}
+}
