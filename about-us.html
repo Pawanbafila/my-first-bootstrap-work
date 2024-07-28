@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -93,13 +94,13 @@
 
   <div class="container-fluid about-welcome">
     <div class="container">    <div class=" about-welcome-wraper row">
-<div class="left col-6">
+<div class="left col-6"   >
     <h1>About Us</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo veritatis quas porro, ipsam itaque aut! Sit, vel illo! Velit, cumque voluptas optio deserunt libero expedita, quae reiciendis dignissimos neque provident, quos possimus nemo! Distinctio, itaque ipsam rerum, voluptatem maiores id quidem laborum nemo praesentium officiis illum eveniet recusandae aspernatur saepe!</p>
 
     <button type="button" class="btn btn-outline-primary">Read More..</button>
 </div>
-<div class="right col-6">
+<div class="right col-6" data-aos="zoom-in">
     <img src="images/oksana-savinova--jLqvAGKMHE-unsplash2.jpg"  alt="">
 </div>
     </div>
@@ -116,7 +117,7 @@
     <button type="button" class="btn btn-outline-primary">Read More..</button>
 </div>
 <div class="right2 col-7">
-    <img src="images/statergy.jpg" alt="">
+    <img src="images/statergy.jpg" alt="" data-aos="zoom-in">
 </div>
     </div>
   </div>
@@ -133,7 +134,7 @@
     <div class="container">
 <h3 style="text-align: center; margin: 10px 0; padding: 20px 0;"> Our <span style="color: orange; font-weight: bolder;">Teacher</span></h3>
         <div class="row trailer-group">
-        <div class="col-3 tg2">
+        <div class="col-3 tg2" data-aos="zoom-in">
           <div class="card shadow-sm">
             <img src="images/BOY-IMAGE.jpg" alt="">
             <div class="card-body">
@@ -143,7 +144,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 tg2">
+        <div class="col-3 tg2" data-aos="zoom-in">
           <div class="card shadow-sm">
             <img src="images/teacher/brooke-cagle-wKOKidNT14w-unsplash.jpg" alt="">
             <div class="card-body">
@@ -153,7 +154,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 tg2">
+        <div class="col-3 tg2" data-aos="zoom-in">
           <div class="card shadow-sm">
             <img src="images/teacher/hoai-thanh-snLtdvk9Vnw-unsplash.jpg" alt="">
             <div class="card-body">
@@ -164,7 +165,7 @@
           </div>
         </div>
         
-        <div class="col-3 tg2">
+        <div class="col-3 tg2" data-aos="zoom-in">
           <div class="card shadow-sm">
             <img src="images/teacher/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg" alt="">
             <div class="card-body">
@@ -331,7 +332,13 @@
 
 
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 190,
+    duration:1000,  
+  });
+</script>
     
     <!------------------ Here our js online link  ----------------->
     <script

@@ -9,6 +9,7 @@ width: 100%;
 }
 
 body {
+
     background-color: #CFECEA;
 
 }
@@ -910,21 +911,31 @@ form input, select{
 .blog-list a{
    text-decoration: none;
    color: white;
-   font-weight: bold;
- 
-}
+ }
 .blog-list{
     background-color: red;
+    padding: 5px;
 }
 .list-first{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
+}
+.list-first a{
+    padding: 5px;
+    border-radius: 5px;
 }
 .list-two{
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
+    align-items: center;
+}
+.list-two a{
+    padding: 5px;
+    border-radius: 5px;
+    height: fit-content;
 }
 .blog-list a:hover{
     background-color: white;
@@ -932,8 +943,36 @@ form input, select{
 }
 
 
+.recent-posts ul li a img{
+width: 100%;
+object-fit: cover;
+height: 50px !important;
+}
 
 
+
+
+
+
+@media (max-width: 575px) {
+    
+.list-first{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.list-two{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.article .container .row{
+    margin: 0 0 !important;
+}
+}
 
 /******************************************************************
 * Here Our Article Part Started 
