@@ -313,8 +313,8 @@ body {
 .about-banner {
     width: 100%;
     height: 50vh;
-    background-image: url(images/scott-graham-5fNmWej4tAA-unsplash.jpg);
-    background-position: 0 50%;
+    background-image: url(images/gautam-krishnan-47gcGwUUHb0-unsplash\ \(1\).jpg);
+    background-position:  50% 30%;
 }
 
 
@@ -342,6 +342,12 @@ body {
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.album .container .row .tg2 img{
+width: 100%;
+height: 300px;
+object-fit: cover;
 }
 
 /******************************************************************
