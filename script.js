@@ -58,3 +58,10 @@ gsap.from( ".ser-ban-left", {
    
 })
 
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true,
+    lerp: 0.04,
+   
+});
